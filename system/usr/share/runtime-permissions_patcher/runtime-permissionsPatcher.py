@@ -99,7 +99,7 @@ for child in et_root.iter('pkg'):
       if debug >= 2:
         print(item.attrib) 
       
-      # Patch WRITE_EXTERNAL_STORAGE
+      # Patch ACCESS_BACKGROUND_LOCATION
       if item.get('name') == 'android.permission.ACCESS_BACKGROUND_LOCATION':
         if debug >= 1:
           print('D: Found: ', item.get('name'), ' with flags = ', item.get('flags'))
@@ -115,6 +115,44 @@ for child in et_root.iter('pkg'):
           # Check if new flags is correct
           if debug >= 1:
             print('D: Flags patched to: ', item.get('flags'))
+            
+            
+      # Patch ACCESS_FINE_LOCATION
+      elif item.get('name') == 'android.permission.ACCESS_FINE_LOCATION':
+        if debug >= 1:
+          print('D: Found: ', item.get('name'), ' with flags = ', item.get('flags'))
+        
+        # Check if flags not right
+        if item.get('flags') != '3320':
+          if debug >= 1:
+            print('D: Patch flags: ', item.get('name'))
+            
+          # Set new flags
+          item.set('flags', '3320')
+          
+          # Check if new flags is correct
+          if debug >= 1:
+            print('D: Flags patched to: ', item.get('flags'))
+            
+            
+      # Patch ACCESS_COARSE_LOCATION
+      elif item.get('name') == 'android.permission.ACCESS_COARSE_LOCATION':
+        if debug >= 1:
+          print('D: Found: ', item.get('name'), ' with flags = ', item.get('flags'))
+        
+        # Check if flags not right
+        if item.get('flags') != '3320':
+          if debug >= 1:
+            print('D: Patch flags: ', item.get('name'))
+            
+          # Set new flags
+          item.set('flags', '3320')
+          
+          # Check if new flags is correct
+          if debug >= 1:
+            print('D: Flags patched to: ', item.get('flags'))
+            
+            
             
         # Skip it flags already correct  
         else:    
