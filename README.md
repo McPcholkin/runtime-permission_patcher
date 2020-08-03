@@ -12,7 +12,7 @@ Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_instal
 - Add repo files inside zip archive to get structure as described in [Magisk Developer Guides](https://topjohnwu.github.io/Magisk/guides.html)  
 - Install module using Magisk Manager
 - Reboot device 2 times (to run module at least once)
-- You can disable\uninstall module after first reboot, file already patched.
+- You can disable\uninstall module after second reboot, file already patched.
 
 ## Thanks:
 - **7175** for [python binary](https://forum.xda-developers.com/android/software-hacking/scripting-python-static-2-7-8-3-4-2-t2958679) 
