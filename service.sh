@@ -1,4 +1,3 @@
-#!/system/bin/sh
 
 debug_lvl=0
 
