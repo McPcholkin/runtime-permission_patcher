@@ -11,6 +11,7 @@ Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_instal
 - Clone repo (or download as zip)
 - Add repo files inside zip archive to get structure as described in [Magisk Developer Guides](https://topjohnwu.github.io/Magisk/guides.html)  
 - Install module using Magisk Manager
+- Reboot device 2 times (to run module at least once)
 - You can disable\uninstall module after first reboot, file already patched.
 
 ## Thanks:
