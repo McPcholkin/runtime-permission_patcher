@@ -1,5 +1,5 @@
 
-debug_lvl=0
+debug_lvl=2
 
 log_file='/storage/emulated/0/runtime_perm_magisk_log.txt'
 python_bin='/system/usr/share/python/bin/python3.4'

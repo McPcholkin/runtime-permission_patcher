@@ -27,6 +27,9 @@ apps_dict = {
     },
   'org.fitchfamily.android.dejavu': {
     'ACCESS_BACKGROUND_LOCATION' : '3320'
+    },
+  'org.fitchfamily.android.wifi_backend': {
+    'ACCESS_BACKGROUND_LOCATION' : '3320'
     }
  }
 
