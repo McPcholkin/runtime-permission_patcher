@@ -15,8 +15,8 @@ Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_instal
 - Clone repo (or download as zip)
 - Add repo files inside zip archive to get structure as described in [Magisk Developer Guides](https://topjohnwu.github.io/Magisk/guides.html)  
 - Install module using Magisk Manager
-- Reboot device 2 times (to run module at least once)
-- You can disable\uninstall module after second reboot, file already patched.
+- Reboot device 2-5 times to all apps been patched (it takesome reboots, and after adding other supported modules, usualy first install take 2-5 reboots)
+- You can disable\uninstall module after all apps in file already patched.
 
 ## Thanks:
 - **7175** for [python binary](https://forum.xda-developers.com/android/software-hacking/scripting-python-static-2-7-8-3-4-2-t2958679) 
