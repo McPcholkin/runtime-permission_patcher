@@ -15,7 +15,7 @@ Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_instal
 - Clone repo (or download as zip)
 - Add repo files inside zip archive to get structure as described in [Magisk Developer Guides](https://topjohnwu.github.io/Magisk/guides.html)  
 - Install module using Magisk Manager
-- Reboot device 2-5 times to all apps been patched (it takesome reboots, and after adding other supported modules, usualy first install take 2-5 reboots)
+- Reboot device 2-5 times to all apps been patched (it take couple reboots, and after adding other supported modules, usualy first install take 2-5 reboots)
 - You can disable\uninstall module after all apps in file already patched.
 
 ## Thanks:
