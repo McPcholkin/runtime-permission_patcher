@@ -17,7 +17,7 @@ changes_counter = 0
 apps_dict = {
   'dev.ukanth.ufirewall.donate': {
     'WRITE_EXTERNAL_STORAGE' : '3320',
-    'READ_EXTERNAL_STORAGE' : '3320',
+    'READ_EXTERNAL_STORAGE' : '3320'
     },
   'com.google.android.gms': {
     'ACCESS_BACKGROUND_LOCATION' : '3320'
@@ -30,7 +30,15 @@ apps_dict = {
     },
   'org.fitchfamily.android.wifi_backend': {
     'ACCESS_BACKGROUND_LOCATION' : '3320'
+    },
+  'org.fitchfamily.android.gsmlocation': {
+    'ACCESS_BACKGROUND_LOCATION' : '3320',
+    'WRITE_EXTERNAL_STORAGE' : '3320',
+    'READ_EXTERNAL_STORAGE' : '3320',
+    'ACCESS_MEDIA_LOCATION' : '3320',
+    'ACCESS_COARSE_LOCATION' : '3320'
     }
+    
  }
 
 # Open input file
