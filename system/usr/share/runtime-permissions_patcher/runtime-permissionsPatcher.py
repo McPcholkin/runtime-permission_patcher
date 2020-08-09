@@ -25,6 +25,9 @@ apps_dict = {
   'org.microg.nlp': {
     'ACCESS_BACKGROUND_LOCATION' : '3320'
     },
+  'com.google.android.gms': {
+    'ACCESS_BACKGROUND_LOCATION' : '3320'
+    },
   'org.fitchfamily.android.dejavu': {
     'ACCESS_BACKGROUND_LOCATION' : '3320'
     },

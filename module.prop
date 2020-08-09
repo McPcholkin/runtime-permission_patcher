@@ -1,6 +1,6 @@
 id=runtime-permissions_patcher
 name=runtime-permissions.xml patcher
-version=Ver: 2 
-versionCode=2
+version=Ver: 0.0.3 
+versionCode=3
 author=McPcholkin
-description=Patch runtime-permissions.xml for system-less AFWall+, GmsCore-v0.2.11.202414
+description=Patch runtime-permissions.xml for system AFWall+, GmsCore-v0.2.11.202414, and more...

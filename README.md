@@ -2,12 +2,12 @@
 
 Magisk module to fix permissions for:
 
-* [AFWall+](https://github.com/McPcholkin/afwall_installer)
-* [GmsCore-v0.2.11.202414](https://github.com/McPcholkin/microG_installer_Q)
-* [UnifiedNlp](https://github.com/McPcholkin/unifiednlp_installer)
-* [DejaVu-v1.1.12](https://github.com/McPcholkin/dejavu_installer)
-* [LocalWifiNlpBackend](https://github.com/McPcholkin/local_wifi_nlp_backend_installer)
-* [LocalGsmNlpBackend](https://github.com/McPcholkin/local_wifi_gsm_backend_installer)
+* [AFWall+ 3.3.1](https://github.com/McPcholkin/afwall_installer)
+* [GmsCore 0.2.11.202414](https://github.com/McPcholkin/microG_installer_Q)
+* [UnifiedNlp 1.6.8](https://github.com/McPcholkin/unifiednlp_installer)
+* [DejaVu 1.1.12](https://github.com/McPcholkin/dejavu_installer)
+* [LocalWifiNlpBackend 1.1.13](https://github.com/McPcholkin/local_wifi_nlp_backend_installer)
+* [LocalGsmNlpBackend 0.0.1.4](https://github.com/McPcholkin/local_wifi_gsm_backend_installer)
 
 Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_installer_for_android) to work
 
