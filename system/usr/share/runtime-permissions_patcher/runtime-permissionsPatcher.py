@@ -40,6 +40,10 @@ apps_dict = {
     'READ_EXTERNAL_STORAGE' : '3320',
     'ACCESS_MEDIA_LOCATION' : '3320',
     'ACCESS_COARSE_LOCATION' : '3320'
+    },
+  'com.jbak2.JbakKeyboard': {
+    'WRITE_EXTERNAL_STORAGE' : '3320',
+    'READ_EXTERNAL_STORAGE' : '3320'
     }
     
  }

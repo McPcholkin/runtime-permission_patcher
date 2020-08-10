@@ -7,7 +7,8 @@ Magisk module to fix permissions for:
 * [UnifiedNlp 1.6.8](https://github.com/McPcholkin/unifiednlp_installer)
 * [DejaVu 1.1.12](https://github.com/McPcholkin/dejavu_installer)
 * [LocalWifiNlpBackend 1.1.13](https://github.com/McPcholkin/local_wifi_nlp_backend_installer)
-* [LocalGsmNlpBackend 0.0.1.4](https://github.com/McPcholkin/local_wifi_gsm_backend_installer)
+* [LocalGsmNlpBackend 0.0.1.4](https://github.com/McPcholkin/local_gsm_nlp_backend_installer)
+* [Jbak2 Keyboard](https://github.com/McPcholkin/jbak2_keyboard_installer)
 
 Requiered [Python 3.4 magisk module](https://github.com/McPcholkin/python_installer_for_android) to work
 
