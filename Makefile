@@ -8,6 +8,8 @@ make_magisk_module:
 	service.sh \
 	system 
 
+push:
+	adb push runtime-permission_patcher.zip /sdcard/
 
 clean: 
 	rm runtime-permission_patcher.zip
