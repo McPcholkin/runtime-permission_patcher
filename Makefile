@@ -1,15 +1,14 @@
-make_magisk_module: 
-	zip -r runtime-permission_patcher.zip \
-	META-INF \
-    LICENSE \
-	README.md \
-	module.prop \
-	customize.sh \
-	service.sh \
-	system 
+magiskModuleName = $(shell basename `pwd`)
 
-push:
-	adb push runtime-permission_patcher.zip /sdcard/
+all: clean make-magisk-module adb-push
+.PHONY: all
+
+make-magisk-module: 
+	zip -r ${magiskModuleName}.zip ./* --exclude .gitignore Makefile \*.zip .git/
+
+adb-push:
+	adb push ${magiskModuleName}.zip /sdcard/magiskModules/
 
 clean: 
-	rm runtime-permission_patcher.zip
+	rm ${magiskModuleName}.zip
+
